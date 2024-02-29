@@ -23,7 +23,7 @@ jobs:
 
       - name: Build with Maven
         run: |
-          cd employee-management-system-backend(SpringBoot)
+          cd employee-management-system-backend
           mvn clean install
 
       - name: Upload artifact for deployment job
