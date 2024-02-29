@@ -48,5 +48,5 @@ jobs:
         with:
           app-name: 'employeemanagementsystem-mainak'
           slot-name: 'Production'
-          package: '*.jar'
+          package: '${{ github.workspace }}/employee-management-system-backend/target/*.jar'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9D51E7F25C984D17BDECA9F0B3E52711 }}
