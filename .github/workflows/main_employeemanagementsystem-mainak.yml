@@ -27,7 +27,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: java-app
-          path: '${{ github.workspace }}/employee-management-system-backend/target/*.jar'
+          path: '${{ github.workspace }}/employee-management-system-backend/target/ems-backend-0.0.1-SNAPSHOT.jar'
 
   deploy:
     runs-on: ubuntu-latest
