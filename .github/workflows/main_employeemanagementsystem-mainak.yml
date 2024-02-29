@@ -32,7 +32,7 @@ jobs:
           name: java-app
           path: '${{ github.workspace }}/target/*.jar'
 
-  deploy:
+   deploy:
     runs-on: ubuntu-latest
     needs: build
     environment:
@@ -51,5 +51,5 @@ jobs:
         with:
           app-name: 'employeemanagementsystem-mainak'
           slot-name: 'Production'
-          package: '*.jar'
+          package: 'employee-management-system-backend/target/*.jar' # Adjust the path
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9D51E7F25C984D17BDECA9F0B3E52711 }}
