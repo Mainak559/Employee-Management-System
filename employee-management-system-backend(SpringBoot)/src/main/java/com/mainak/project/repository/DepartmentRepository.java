@@ -1,6 +1,6 @@
-package net.javaguides.ems.repository;
+package com.mainak.project.repository;
 
-import net.javaguides.ems.entity.Department;
+import com.mainak.project.entity.Department;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface DepartmentRepository extends JpaRepository<Department, Long> {

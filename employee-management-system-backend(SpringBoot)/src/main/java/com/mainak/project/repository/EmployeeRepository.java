@@ -1,6 +1,6 @@
-package net.javaguides.ems.repository;
+package com.mainak.project.repository;
 
-import net.javaguides.ems.entity.Employee;
+import com.mainak.project.entity.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface EmployeeRepository extends JpaRepository<Employee, Long> {

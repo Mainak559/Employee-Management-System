@@ -1,8 +1,8 @@
-package net.javaguides.ems.controller;
+package com.mainak.project.controller;
 
 import lombok.AllArgsConstructor;
-import net.javaguides.ems.dto.DepartmentDto;
-import net.javaguides.ems.service.DepartmentService;
+import com.mainak.project.dto.DepartmentDto;
+import com.mainak.project.service.DepartmentService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

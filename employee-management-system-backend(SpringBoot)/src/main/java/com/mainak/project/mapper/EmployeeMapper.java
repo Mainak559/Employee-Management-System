@@ -1,7 +1,7 @@
-package net.javaguides.ems.mapper;
+package com.mainak.project.mapper;
 
-import net.javaguides.ems.dto.EmployeeDto;
-import net.javaguides.ems.entity.Employee;
+import com.mainak.project.dto.EmployeeDto;
+import com.mainak.project.entity.Employee;
 
 public class EmployeeMapper {
 

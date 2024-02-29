@@ -1,6 +1,6 @@
-package net.javaguides.ems.service;
+package com.mainak.project.service;
 
-import net.javaguides.ems.dto.DepartmentDto;
+import com.mainak.project.dto.DepartmentDto;
 
 import java.util.List;
 

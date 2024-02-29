@@ -1,12 +1,12 @@
-package net.javaguides.ems.service.impl;
+package com.mainak.project.service.impl;
 
 import lombok.AllArgsConstructor;
-import net.javaguides.ems.dto.EmployeeDto;
-import net.javaguides.ems.entity.Employee;
-import net.javaguides.ems.exception.ResourceNotFoundException;
-import net.javaguides.ems.mapper.EmployeeMapper;
-import net.javaguides.ems.repository.EmployeeRepository;
-import net.javaguides.ems.service.EmployeeService;
+import com.mainak.project.dto.EmployeeDto;
+import com.mainak.project.entity.Employee;
+import com.mainak.project.exception.ResourceNotFoundException;
+import com.mainak.project.mapper.EmployeeMapper;
+import com.mainak.project.repository.EmployeeRepository;
+import com.mainak.project.service.EmployeeService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

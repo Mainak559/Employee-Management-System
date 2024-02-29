@@ -1,7 +1,7 @@
-package net.javaguides.ems.mapper;
+package com.mainak.project.mapper;
 
-import net.javaguides.ems.dto.DepartmentDto;
-import net.javaguides.ems.entity.Department;
+import com.mainak.project.dto.DepartmentDto;
+import com.mainak.project.entity.Department;
 
 public class DepartmentMapper {
 

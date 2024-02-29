@@ -1,12 +1,12 @@
-package net.javaguides.ems.service.impl;
+package com.mainak.project.service.impl;
 
 import lombok.AllArgsConstructor;
-import net.javaguides.ems.dto.DepartmentDto;
-import net.javaguides.ems.entity.Department;
-import net.javaguides.ems.exception.ResourceNotFoundException;
-import net.javaguides.ems.mapper.DepartmentMapper;
-import net.javaguides.ems.repository.DepartmentRepository;
-import net.javaguides.ems.service.DepartmentService;
+import com.mainak.project.dto.DepartmentDto;
+import com.mainak.project.entity.Department;
+import com.mainak.project.exception.ResourceNotFoundException;
+import com.mainak.project.mapper.DepartmentMapper;
+import com.mainak.project.repository.DepartmentRepository;
+import com.mainak.project.service.DepartmentService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package net.javaguides.ems.dto;
+package com.mainak.project.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
