@@ -27,7 +27,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: java-app
-          path: '${{ github.workspace }}/employee-management-system-backend/target/ems-backend-0.0.1-SNAPSHOT.jar'
+          path: '${{ github.workspace }}/employee-management-system-backend/target/*.jar'
 
   deploy:
     runs-on: ubuntu-latest
@@ -48,5 +48,5 @@ jobs:
         with:
           app-name: 'employeemanagementsystem-mainak'
           slot-name: 'Production'
-          package: '/home/runner/work/Employee-Management-System/employee-management-system-backend/target/*.jar'
+          package: '/home/runner/work/Employee-Management-System/employee-management-system-backend/target/ems-backend-0.0.1-SNAPSHOT.jar'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9D51E7F25C984D17BDECA9F0B3E52711 }}
